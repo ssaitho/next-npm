@@ -1,11 +1,11 @@
-import React, { memo, VFC } from "react";
+import React, { memo, FC } from "react";
 
 type Props = {
   className: string;
 };
 
 /* eslint-disable-next-line react/display-name */
-export const HomeIcon: VFC<Props> = memo((props) => {
+export const HomeIcon: FC<Props> = memo((props) => {
   const { className } = props;
 
   return (
