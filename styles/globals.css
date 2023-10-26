@@ -1,6 +1,8 @@
 @import "~tailwindcss/base";
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
+@import '../node_modules/@ssaitho/react_ts_storybook/index.css';
+@import '../node_modules/@ssaitho/react_ts_storybook/react-datepicker.css';
 
 html,
 body {
@@ -23,6 +25,7 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;

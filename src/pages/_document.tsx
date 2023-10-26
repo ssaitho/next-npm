@@ -6,10 +6,6 @@ const MyDocument = () => {
     <Html lang="ja-JP">
       <Head>
         <meta name="application-name" content="hoge" />
-        <link
-          rel="stylesheet"
-          href="https://unpkg.com/@openameba/spindle-ui/index.css"
-        ></link>
       </Head>
       <body>
         <Main />

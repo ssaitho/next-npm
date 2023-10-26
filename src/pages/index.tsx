@@ -1,23 +1,14 @@
 import React from "react";
 import type { NextPage } from "next";
-import { Button, Range } from "@ssaitho/react_ts_storybook";
-// import { Button } from "@openameba/spindle-ui";
-import { PrimaryButton, StatusLabel } from "smarthr-ui";
+import { Button } from "@ssaitho/react_ts_storybook";
 
 const Home: NextPage = () => {
   return (
     <div>
       <p>home</p>
-      <Button size="large">react_ts_storybook</Button>
-      <br />
-      <Range />
-      <Range />
-      <Range />
-      {/* <Button size="large" variant="contained">
-        Spindle
-      </Button> */}
-      <PrimaryButton>Hello World</PrimaryButton>
-      <StatusLabel type="red">ラベル名</StatusLabel>
+      <Button size="medium" variant="bg-blue-500">
+        react_ts_storybook
+      </Button>
     </div>
   );
 };
